@@ -1,0 +1,165 @@
+====================
+VISUAL IDENTITY
+====================
+
+Create a modern Mexican digital news program.
+
+The presentation must feel like:
+- Morning news analysis
+- Premium YouTube journalism
+- Public information explainer
+- Modern documentary
+
+The viewer feeling must be:
+"Someone clearly explained today's Mexico."
+
+NOT:
+- Financial terminal
+- Intelligence report
+- Government confidential document
+- Military dashboard
+- Dark corporate presentation
+
+====================
+COLOR SYSTEM
+====================
+
+IMPORTANT:
+The presentation must NOT be predominantly dark.
+
+Use a bright professional visual identity.
+
+Color distribution:
+
+70% light background
+20% neutral elements
+10% Mexico accent colors
+
+
+PRIMARY BACKGROUND:
+
+Use:
+#F8F5EF
+#FAFAFA
+#FFFFFF
+
+Style:
+Warm daylight
+Clean newsroom
+Modern editorial magazine
+
+
+SECONDARY AREAS:
+
+Use:
+#EDE7DC
+#E5E7EB
+
+For:
+- Cards
+- Data containers
+- Topic sections
+
+
+TEXT:
+
+Main:
+#1A1A1A
+
+Secondary:
+#4B5563
+
+
+MEXICO ACCENTS:
+
+Green:
+#006847
+
+Gold:
+#C9A227
+
+Red:
+#CE1126
+
+
+Rules:
+
+Green:
+Use for categories and identity.
+
+Gold:
+Use only for important numbers.
+
+Red:
+Use only as minimal accent.
+
+
+Avoid:
+- Full black backgrounds
+- Dark navy backgrounds
+- Dark overlays
+- Neon effects
+- Stock market style graphics
+
+====================
+IMAGE STYLE
+====================
+
+Use:
+- Daylight photography
+- Mexican architecture
+- Palacio Nacional
+- City views
+- Maps with light style
+
+Avoid:
+- Night photography
+- Dark dramatic shadows
+- Cyber style backgrounds
+
+====================
+TYPOGRAPHY
+====================
+
+Use:
+
+Montserrat
+Inter
+Aptos
+
+Titles:
+
+Montserrat SemiBold
+
+Do NOT use:
+- Ultra condensed fonts
+- Movie poster typography
+- Extremely large uppercase titles
+
+Headlines should look like:
+A modern newspaper.
+
+Numbers:
+Large but elegant.
+
+Text:
+Clean and readable.
+
+====================
+SLIDE STYLE
+====================
+
+Each slide should look like:
+
+A premium editorial magazine page.
+
+Not a classified intelligence report.
+
+Use:
+- White space
+- Clean cards
+- Soft shadows
+- Clear hierarchy
+- Professional images
+
+Keep México Hoy identity consistent.
