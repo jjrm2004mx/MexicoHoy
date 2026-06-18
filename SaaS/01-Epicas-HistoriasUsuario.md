@@ -10,7 +10,7 @@ automáticamente, para reducir tiempo de investigación.
 Criterios: - Identificar temas relevantes. - Resumir información. -
 Clasificar prioridad.
 
-------------------------------------------------------------------------
+---
 
 ## HU-002 Generador de guiones IA
 
@@ -20,7 +20,7 @@ formato consistente.
 Criterios: - Introducción atractiva. - Contexto. - Datos. -
 Explicación. - Cierre.
 
-------------------------------------------------------------------------
+---
 
 # EPIC-002 - Producción Multimedia
 
@@ -28,23 +28,25 @@ Explicación. - Cierre.
 
 Crear: - Miniaturas - Imágenes - Presentaciones
 
-------------------------------------------------------------------------
+---
 
 ## HU-004 Avatar IA
 
 Convertir guiones en videos usando presentadores virtuales.
 
-------------------------------------------------------------------------
+---
 
 # EPIC-003 - Publicación YouTube
 
 Automatizar: - Títulos - Descripción - Tags - Categorías - Publicación
 
-------------------------------------------------------------------------
+---
 
 # EPIC-004 - Analytics Engine
 
 Analizar: - Vistas - CTR - Retención - Suscriptores
+
+---
 
 # EPIC-005 - Optimización basada en Analytics
 
@@ -120,23 +122,20 @@ CTR objetivo:
 
 BACKLOG
 
+---
+
 ## ISSUE-007 / HU-007 - Mejorar posicionamiento en búsqueda YouTube
 
 ### Tipo
 
 Optimización / Growth Analytics
 
----
-
 ### Contexto
 
-Durante el análisis inicial del MVP del canal **México Hoy en 5 Minutos**, se detecta que YouTube comenzó a recomendar el contenido, pero aún existe poca presencia en resultados de búsqueda.
+Durante el análisis inicial del MVP del canal México Hoy en 5 Minutos, se detecta que YouTube comenzó a recomendar el contenido, pero aún existe poca presencia en resultados de búsqueda.
 
 Video analizado:
-
 MH5M-260616-001-SEGURIDAD
-
----
 
 ### Métricas iniciales
 
@@ -152,44 +151,24 @@ Fuentes de tráfico:
 - External: 7.1%
 - YouTube Search: sin tráfico significativo
 
----
-
 ### Análisis
 
 Resultado positivo:
-
 YouTube está clasificando correctamente el contenido y comenzó a probarlo mediante recomendaciones.
 
 El tráfico inicial depende principalmente de:
-
 - recomendaciones internas
 - sugerencias automáticas
-
----
 
 ### Problema detectado
 
 El contenido depende principalmente de recomendación automática.
-
 Existe baja captación mediante usuarios que buscan activamente información.
-
 Se requiere aumentar descubrimiento orgánico.
-
----
 
 ### Hipótesis
 
 Los metadatos actuales son correctos para clasificación inicial, pero requieren mayor alineación con intención de búsqueda del usuario.
-
-Actualmente el enfoque es más editorial/informativo.
-
-Se necesita complementar con:
-
-- preguntas frecuentes
-- intención del usuario
-- términos de búsqueda naturales
-
----
 
 ### Cambios propuestos
 
@@ -201,50 +180,45 @@ Optimizar:
 - palabras clave mencionadas dentro del guion
 - miniatura alineada al interés del usuario
 
----
-
-### Ejemplo de optimización
-
-Antes:
-
-"Informe de Seguridad Nacional"
-
-Después:
-
-"¿Está mejorando la seguridad en México?"
-
----
-
 ### Criterios de aceptación
 
-- Crear plantilla SEO v0.2
-- Definir formato estándar de títulos
-- Crear checklist previo a publicación
-- Medir fuentes de tráfico después del cambio
-
----
+- Crear plantilla SEO v0.2 ✔
+- Definir formato estándar de títulos ✔
+- Crear checklist previo a publicación ✔
+- Medir fuentes de tráfico después del cambio ⏳
 
 ### Métrica objetivo
 
-Incrementar tráfico por búsqueda:
-
 YouTube Search >= 15%
-
-Mantener:
-
 Retención promedio >= 40%
 
----
+### Implementado en
+
+MH5M-002
+
+### Cambios aplicados
+
+✔ Título orientado a pregunta detonadora
+✔ Capítulos manuales agregados
+✔ Mejor experiencia de usuario
+✔ Mayor contexto para el algoritmo de YouTube
 
 ### Aprendizaje generado
 
-"El primer cuello de botella detectado no está en la producción del contenido, sino en la optimización de entrada: CTR, búsqueda y empaque."
+"El primer cuello de botella detectado no está en la producción
+del contenido, sino en la optimización de entrada:
+CTR, búsqueda y empaque."
 
----
+### Siguiente acción
+
+Revisar Analytics de MH5M-002 para validar incremento
+en tráfico por búsqueda vs MH5M-001 (baseline: 0%)
 
 ### Estado
 
-BACKLOG
+DONE ✔
+
+---
 
 ## ISSUE-008 - Optimización de segundo experimento de contenido
 
@@ -272,8 +246,11 @@ Objetivo Video 002:
 CTR >= 3%
 Retención >= 45%
 
-Estado:
+### Estado
+
 READY FOR SPRINT 1
+
+---
 
 ## ISSUE-009 / HU-009 - Integrar tendencias de YouTube Inspiration
 
@@ -281,23 +258,16 @@ READY FOR SPRINT 1
 
 Content Intelligence / Growth Analytics
 
----
-
 ### Contexto
 
 YouTube Studio proporciona señales internas sobre temas, búsquedas e intereses de usuarios.
 
 Estas señales pueden utilizarse como entrada para mejorar la selección de temas del canal México Hoy en 5 Minutos.
 
----
-
 ### Problema
 
 Actualmente los temas se seleccionan principalmente por análisis editorial.
-
 Falta incorporar señales reales de demanda de audiencia.
-
----
 
 ### Hipótesis
 
@@ -314,14 +284,11 @@ incrementará:
 - CTR
 - descubrimiento orgánico
 
----
-
 ### Cambios propuestos
 
 Agregar una etapa previa al guion:
 
-Nuevo flujo:
-
+```
 Tema candidato
 ↓
 Validación tendencias YouTube
@@ -331,9 +298,7 @@ Análisis de demanda
 Priorización
 ↓
 Producción
-
-
----
+```
 
 ### Fuentes de información
 
@@ -344,8 +309,6 @@ Producción
 - Fuentes periodísticas
 - Analytics histórico del canal
 
----
-
 ### Criterios de aceptación
 
 - Registrar tendencias encontradas antes de producir video
@@ -353,18 +316,81 @@ Producción
 - Documentar intención de búsqueda
 - Comparar desempeño contra videos anteriores
 
----
-
 ### Métrica objetivo
 
-Incrementar:
-
 YouTube Search >= 15%
-
 CTR >= 3%
-
----
 
 ### Estado
 
 BACKLOG
+
+---
+
+## ISSUE-010 - Diferenciación contra contenido IA masivo
+
+### Contexto
+
+Existe saturación de contenido generado automáticamente.
+El canal puede percibirse como genérico.
+
+### Riesgo
+
+Pérdida de identidad editorial frente a competencia IA.
+
+### Hipótesis
+
+Agregar criterio editorial humano aumenta confianza y retención.
+
+### Diferenciadores propuestos
+
+Elementos exclusivos por episodio:
+
+- Por qué importa este tema hoy
+- Contexto histórico relevante
+- Datos comparativos vs periodos anteriores
+
+Nota:
+Impacto ciudadano y neutralidad ya definidos
+en 06-ContentStrategy.md
+
+### Métrica objetivo
+
+Mantener: Retención >= 45%
+Incrementar: Suscriptores por vista
+
+### Estado
+
+BACKLOG
+
+---
+
+## EXPERIMENTO-002
+
+### Hipótesis
+
+Título con pregunta + miniatura con elemento de curiosidad
+incrementa CTR vs episodio anterior.
+
+### Variables modificadas
+
+✔ Título con pregunta detonadora
+✔ Miniatura con texto de curiosidad
+✔ Capítulos manuales agregados
+✔ Primer comentario fijado con CTA
+
+### Comparativa
+
+| Métrica | MH5M-001 | Objetivo MH5M-002 |
+|---------|----------|-------------------|
+| CTR | 1.3% | >= 3% |
+| Retención | 48% | >= 45% |
+| YouTube Search | ~0% | >= 15% |
+
+### Estado
+
+EN MEDICIÓN ⏳
+
+### Resultado
+
+Pendiente de Analytics
