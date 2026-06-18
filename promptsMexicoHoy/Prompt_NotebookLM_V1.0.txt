@@ -1,0 +1,16 @@
+Usando estrictamente las instrucciones del documento Script_TXT_V2.8.txt,
+analiza la transcripción de hoy y genera el JSON completo.
+
+Nombra el archivo de salida con la nomenclatura:
+MH5M-YYMMDD-NNN-BRIEFING.txt
+
+Ejemplo: MH5M-260618-003-BRIEFING.txt
+
+RECORDATORIOS CRÍTICOS:
+- Slogan SIEMPRE en español: "México explicado en minutos"
+- Números SIEMPRE en dígitos: 44 mil, 75 mil, 99.99%
+- Opening: Hook → Pregunta → Promesa → Saludo + Fecha
+- short_script DEBE existir dentro de cada topic
+- youtube_shorts NO existe en esta versión
+- quality_control DEBE tener 7 campos
+- Devolver ÚNICAMENTE JSON válido
