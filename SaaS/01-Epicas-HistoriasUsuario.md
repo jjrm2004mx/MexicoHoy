@@ -394,3 +394,4 @@ EN MEDICIÓN ⏳
 ### Resultado
 
 Pendiente de Analytics
+
